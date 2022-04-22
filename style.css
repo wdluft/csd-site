@@ -112,8 +112,19 @@ svg {
 }
 
 h1 {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
+  background-image: linear-gradient(
+    95deg,
+    hsl(160deg 84% 39%) 0%,
+    hsl(134deg 42% 49%) 15%,
+    hsl(98deg 45% 45%) 34%,
+    hsl(74deg 69% 37%) 53%,
+    hsl(58deg 100% 30%) 67%,
+    hsl(45deg 100% 34%) 78%,
+    hsl(35deg 100% 38%) 86%,
+    hsl(25deg 95% 43%) 92%,
+    hsl(7deg 78% 53%) 97%,
+    hsl(346deg 86% 50%) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
